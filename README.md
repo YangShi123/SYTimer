@@ -4,6 +4,8 @@
 [![License](https://img.shields.io/cocoapods/l/SYTimer.svg?style=flat)](https://cocoapods.org/pods/SYTimer)
 [![Platform](https://img.shields.io/cocoapods/p/SYTimer.svg?style=flat)](https://cocoapods.org/pods/SYTimer)
 
+GCD定时器，比NSTimer更精准。
+
 ## Example
 
 定时器
