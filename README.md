@@ -1,23 +1,27 @@
 # SYTimer
 
 [![CI Status](https://img.shields.io/travis/YangShi123/SYTimer.svg?style=flat)](https://travis-ci.org/YangShi123/SYTimer)
-[![Version](https://img.shields.io/cocoapods/v/SYTimer.svg?style=flat)](https://cocoapods.org/pods/SYTimer)
 [![License](https://img.shields.io/cocoapods/l/SYTimer.svg?style=flat)](https://cocoapods.org/pods/SYTimer)
 [![Platform](https://img.shields.io/cocoapods/p/SYTimer.svg?style=flat)](https://cocoapods.org/pods/SYTimer)
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+定时器
 
-## Requirements
+```
+[SYTimer excuteTask:^{
+       
+    } delta:0 interval:1 repeats:YES async:YES];
+```
 
-## Installation
+倒计时
 
-SYTimer is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'SYTimer'
+```
+[SYTimer excuteReverseTask:^(NSTimeInterval remain) {
+       
+    } total:10 delta:0 interval:1 async:YES completion:^{
+       
+    }];
 ```
 
 ## Author
