@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'SYTimer_Example' do
+  pod 'SYTimer', :path => '../'
+
+  target 'SYTimer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
